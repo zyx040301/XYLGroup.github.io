@@ -136,7 +136,7 @@
         
 		<p></p>
         <p>
-			The proposed DKP is a plug-and-play tool, which can be combined with the off-the-shelf image restoration model, e.g., DIP and Diffusion model, to realize unsupervised blind image super-resolution.
+			The proposed DKP is a plug-and-play kernel estimation tool, which can be combined with the off-the-shelf image restoration model, e.g., DIP and Diffusion model, to realize unsupervised blind image super-resolution.
         </p>
       </td>
     </tr>
@@ -232,7 +232,7 @@
         
 		<p></p>
         <p>
-			This paper propose an plug-and-play blind image super-resolution method based on the Meta-learning and Markov Chain Monte Carlo, which contributes to preventing bad local optimal solutions from the optimization perspective. 
+			This paper proposes a plug-and-play blind image super-resolution method based on the Meta-learning and Markov Chain Monte Carlo, which contributes to preventing bad local optimal solutions from the optimization perspective. 
         </p>
       </td>
     </tr>
@@ -281,7 +281,7 @@
         
 		<p></p>
         <p>
-			This paper focuses on generating Inverse Synthetic Aperture Radar (ISAR) images from optical images, in particular, for orbit space targets. ISAR images are widely applied in space target observation and classification tasks, whereas, limited to the expensive cost of ISAR sample collection, training deep learning-based ISAR image classifiers with insufficient samples and generating ISAR samples from emulation optical images via image translation techniques have attracted increasing attention. Image translation has highlighted significant success and popularity in computer vision, remote sensing and data generation societies. However, most of the existing methods are implemented under the discipline of extracting the explicit pixel-level features and do not perform effectively while entailing translation to domains with specific implicit features, such as ISAR image does. We propose a meta-learning based domain prior to implicit feature modelling and apply it to CycleGAN and UNIT models to realize effective translations between the ISAR and optical domains. Two representative implicit features, ISAR scattering distribution feature from the physical domain and the classification identifying feature from the task domain, are elaborately formulated with explicit modelling in statistic form. A meta-learning based training scheme is introduced to leverage the mutual knowledge of domain priors across different samples, and thus allows few-shot learning capacity with dramatically reduced training samples. Extensive simulations validate that the obtained ISAR images have better visible-authenticity and training-effectiveness than the existing image translation approaches on various synthetic datasets. Source codes are available at.
+			The proposed MLDP aims to realize the image translation from optical domain to ISAR domain. To generate realistic ISAR images,  MLDP  learns the scattering distribution features and the classifcation identifying features in physical and task perspectives. Meanwhile, MLDP applies the meta-learning strategy to improve its generalization ability to generate ISAR images under limited training samples.
         </p>
       </td>
     </tr>
@@ -330,7 +330,7 @@
         
 		<p></p>
         <p>
-			In this article, we propose a novel solution for nonconvex problems of multiple variables, especially for those typically solved by an alternating minimization (AM) strategy that splits the original optimization problem into a set of subproblems corresponding to each variable and then iteratively optimizes each subproblem using a fixed updating rule. However, due to the intrinsic nonconvexity of the original optimization problem, the optimization can be trapped into a spurious local minimum even when each subproblem can be optimally solved at each iteration. Meanwhile, learning-based approaches, such as deep unfolding algorithms, have gained popularity for nonconvex optimization; however, they are highly limited by the availability of labeled data and insufficient explainability. To tackle these issues, we propose a meta-learning based alternating minimization (MLAM) method that aims to minimize a part of the global losses over iterations instead of carrying minimization on each subproblem, and it tends to learn an adaptive strategy to replace the handcrafted counterpart resulting in advance on superior performance. The proposed MLAM maintains the original algorithmic principle, providing certain interpretability. We evaluate the proposed method on two representative problems, namely, bilinear inverse problem: matrix completion and nonlinear problem: Gaussian mixture models. The experimental results validate the proposed approach outperforms AM-based methods.
+		This paper proposes a meta-learning-based alternating minimization (MLAM) method for nonconvex problems of multiple variables, which aims to minimize a part of the global losses over iterations instead of carrying minimization on each subproblem, and it tends to learn an adaptive strategy to replace the handcrafted counterpart resulting in advance on superior performance.
         </p>
       </td>
     </tr>
@@ -375,7 +375,7 @@
         
 		<p></p>
         <p>
-			Localized incomplete multiple kernel k -means (LI-MKKM) is recently put forward to boost the clustering accuracy via optimally utilizing a quantity of prespecified incomplete base kernel matrices. Despite achieving significant achievement in a variety of applications, we find out that LI-MKKM does not sufficiently consider the diversity and the complementary of the base kernels. This could make the imputation of incomplete kernels less effective, and vice versa degrades on the subsequent clustering. To tackle these problems, an improved LI-MKKM, called LI-MKKM with matrix-induced regularization (LI-MKKM-MR), is proposed by incorporating a matrix-induced regularization term to handle the correlation among base kernels. The incorporated regularization term is beneficial to decrease the probability of simultaneously selecting two similar kernels and increase the probability of selecting two kernels with moderate differences. After that, we establish a three-step iterative algorithm to solve the corresponding optimization objective and analyze its convergence. Moreover, we theoretically show that the local kernel alignment is a special case of its global one with normalizing each base kernel matrices. Based on the above observation, the generalization error bound of the proposed algorithm is derived to theoretically justify its effectiveness. Finally, extensive experiments on several public datasets have been conducted to evaluate the clustering performance of the LI-MKKM-MR. As indicated, the experimental results have demonstrated that our algorithm consistently outperforms the state-of-the-art ones, verifying the superior performance of the proposed algorithm.
+			An improved Localized incomplete multiple kernel k -means (LI-MKKM), called LI-MKKM with matrix-induced regularization (LI-MKKM-MR), is proposed by incorporating a matrix-induced regularization term to handle the correlation among base kernels. We theoretically show that the local kernel alignment is a special case of its global one with normalizing each base kernel matrices.
         </p>
       </td>
     </tr>
@@ -422,7 +422,7 @@
         
 		<p></p>
         <p>
-			This letter proposes a learning aided gradient descent (LAGD) algorithm to solve the weighted sum rate (WSR) maximization problem for multiple-input single-output (MISO) beamforming. The proposed LAGD algorithm directly optimizes the transmit precoder through implicit gradient descent based iterations, at each of which the optimization strategy is determined by a neural network, and thus, is dynamic and adaptive. At each instance of the problem, this network is initialized randomly, and updated throughout the iterative solution process. Therefore, the LAGD algorithm can be implemented at any signal-to-noise ratio (SNR) and for arbitrary antenna/user numbers, does not require labelled data or training prior to deployment. Numerical results show that the LAGD algorithm can outperform of the well-known WMMSE algorithm as well as other learning-based solutions with a modest computational complexity. Our code is available at https://github.com/XiaGroup/LAGD.
+			This letter proposes a learning aided gradient descent (LAGD) algorithm to solve the weighted sum rate (WSR) maximization problem for multiple-input single-output (MISO) beamforming. The proposed LAGD algorithm directly optimizes the transmit precoder through implicit gradient descent based iterations, at each of which the optimization strategy is determined by a neural network, and thus, is dynamic and adaptive. 
         </p>
       </td>
     </tr>
